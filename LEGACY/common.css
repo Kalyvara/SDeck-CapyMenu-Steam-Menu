@@ -165,7 +165,9 @@ Main menu
 }
 
 /* Focused+unselected item, label & icon */
-.mainmenu_Menu_23IDi:not(.mainmenu_VR_1ABsh) .mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 .mainmenu_ItemIcon_3xZ3Z,
+.mainmenu_Menu_23IDi:not(.mainmenu_VR_1ABsh) .mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 .mainmenu_ItemIcon_3xZ3Z {
+  color: var(--capySteam_iconColor);
+}
 .mainmenu_Menu_23IDi:not(.mainmenu_VR_1ABsh) .mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 .mainmenu_ItemLabel_3x-ZK {
   color: var(--capySteam_mainTextColor);
 }
